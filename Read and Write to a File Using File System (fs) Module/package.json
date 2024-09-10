@@ -1,0 +1,11 @@
+{
+  "name": "node-learning",
+  "version": "1.0.0",
+  "description": "Read and Write to a File Using File System (fs) Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
