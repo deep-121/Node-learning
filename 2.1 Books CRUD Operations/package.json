@@ -1,0 +1,17 @@
+{
+  "name": "2.1-books-crud-operations",
+  "version": "1.0.0",
+  "description": "Create API EndpointsBooks CRUD OperationsGET /books - Retrieve all books. Implement pagination and filtering based on author or genre.GET /books/- Retrieve a specific book by its unique ID.POST /books - Add a new book to the collection.PUT /books/- Update details of a book by its ID.DELETE /books/- Remove a book from the collection by its ID.Data Validation & Error HandlingInput Validation:Use express-validator or Joi to validate inputs.Example validation for book creation:Title: Required, string with a max length of 100 characters.Author: Required, string with a max length of 50 characters.Year: Required, should be a valid number.Genre: Optional, string with a max length of 30 characters.Error Handling:Create a custom error handler for validation errors and 404 for invalid routes.Ensure the server responds with appropriate HTTP status codes (e.g., 400 for bad input, 404 for not found).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "joi": "^17.13.3",
+    "nodemon": "^3.1.5",
+    "uuid": "^10.0.0"
+  }
+}
